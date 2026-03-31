@@ -1,0 +1,8 @@
+baseURL = 'https://bhus.github.io/'
+languageCode = 'en-us'
+title = 'My Scala & CS Blog'
+theme = 'PaperMod'
+
+[params]
+    defaultTheme = "auto"
+    showCodeCopyButtons = true
