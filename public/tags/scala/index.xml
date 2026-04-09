@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Scala on The Hubbub Log</title>
+    <link>http://localhost:1313/tags/scala/</link>
+    <description>Recent content in Scala on The Hubbub Log</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 08 Apr 2026 15:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/scala/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Scala 3, Li Haoyi, and the Birth of Hubbub</title>
+      <link>http://localhost:1313/posts/why-hubbub-and-scala/</link>
+      <pubDate>Wed, 08 Apr 2026 15:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/why-hubbub-and-scala/</guid>
+      <description>&lt;h3 id=&#34;why-scala&#34;&gt;Why Scala?&lt;/h3&gt;
+&lt;p&gt;Building &lt;strong&gt;Hubbub&lt;/strong&gt; in Scala 3 has been an absolute joy. There&amp;rsquo;s something uniquely powerful about a language that combines the best of object-oriented and functional programming while providing a type system that actually helps you sleep at night.&lt;/p&gt;
+&lt;p&gt;Scala&amp;rsquo;s expressiveness allowed us to build a robust, local-first facts service with minimal boilerplate. The new Scala 3 syntax is cleaner than ever, making it easier to focus on what matters: the logic and the user experience.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

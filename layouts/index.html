@@ -1,0 +1,39 @@
+{{ define "main" }}
+<div class="landing-container">
+    <div class="landing-hero">
+        <h1 class="landing-title">Hubbub</h1>
+        <p class="landing-tagline">Your local-first facts service.</p>
+        <p class="landing-description">
+            Capture insights from Gemini and ChatGPT directly into your local SQLite database. 
+            Build, refine, and evolve your projects using the grounded context provided by your own gathered facts.
+        </p>
+        <div class="landing-actions">
+            <a href="{{ "posts" | relURL }}" class="landing-cta">Explore the Log</a>
+            <div class="download-group">
+                <span class="download-label">Get the App:</span>
+                <a href="/downloads/hubbub-windows.zip" class="download-link">Windows</a>
+                <a href="/downloads/hubbub-linux.tar.gz" class="download-link">Linux</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="landing-features">
+        <div class="feature-card">
+            <h3>Local-First</h3>
+            <p>Your data stays on your machine. No cloud, no tracking—just your insights stored securely in a local SQLite database.</p>
+        </div>
+        <div class="feature-card">
+            <h3>Agent Context</h3>
+            <p>Console agents can leverage Hubbub's structured facts as grounded context to create and refine projects with precision.</p>
+        </div>
+        <div class="feature-card">
+            <h3>Browser Hooks</h3>
+            <p>Seamlessly capture assistant messages from ChatGPT and Gemini with a single shortcut using dedicated Chrome extensions.</p>
+        </div>
+        <div class="feature-card">
+            <h3>Markdown Export</h3>
+            <p>Instantly transform your gathered facts into clean, structured Markdown files, perfect for documentation and sharing insights.</p>
+        </div>
+    </div>
+</div>
+{{ end }}

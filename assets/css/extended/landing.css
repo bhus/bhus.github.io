@@ -1,0 +1,176 @@
+/* assets/css/extended/landing.css */
+.landing-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 80px 20px;
+    background-color: var(--theme);
+}
+
+.landing-hero {
+    max-width: 800px;
+}
+
+.landing-title {
+    font-size: 4.5rem;
+    font-weight: 900;
+    margin-bottom: 0.5rem;
+    letter-spacing: -0.05em;
+    background: linear-gradient(135deg, #334155 0%, #0f172a 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.landing-tagline {
+    font-size: 1.75rem;
+    font-weight: 600;
+    color: #64748b;
+    margin-bottom: 2rem;
+}
+
+.landing-description {
+    font-size: 1.25rem;
+    line-height: 1.6;
+    color: var(--content);
+    margin-bottom: 3.5rem;
+    opacity: 0.9;
+}
+
+.landing-cta {
+    display: inline-block;
+    padding: 16px 32px;
+    font-size: 1.125rem;
+    font-weight: 700;
+    color: #ffffff !important;
+    background: linear-gradient(135deg, #475569 0%, #1e293b 100%);
+    border-radius: var(--radius);
+    text-decoration: none;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 14px 0 rgba(30, 41, 59, 0.2);
+    margin: 0 10px;
+}
+
+.landing-cta.secondary {
+    background: transparent;
+    color: #475569 !important;
+    border: 2px solid #475569;
+    box-shadow: none;
+}
+
+.landing-cta.secondary:hover {
+    background: #f1f5f9;
+    color: #1e293b !important;
+}
+
+[data-theme="dark"] .landing-cta.secondary {
+    color: #cbd5e1 !important;
+    border-color: #cbd5e1;
+}
+
+[data-theme="dark"] .landing-cta.secondary:hover {
+    background: #334155;
+    color: #f1f5f9 !important;
+}
+
+.landing-actions {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.download-group {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    font-size: 0.9rem;
+    color: var(--secondary);
+}
+
+.download-label {
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    opacity: 0.8;
+}
+
+.download-link {
+    color: #475569;
+    text-decoration: none;
+    font-weight: 500;
+    padding: 4px 8px;
+    border-radius: 4px;
+    transition: background 0.2s;
+}
+
+.download-link:hover {
+    background: #f1f5f9;
+    color: #0f172a;
+}
+
+[data-theme="dark"] .download-link {
+    color: #cbd5e1;
+}
+
+[data-theme="dark"] .download-link:hover {
+    background: #334155;
+    color: #f8fafc;
+}
+
+.landing-features {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 2rem;
+    max-width: 1024px;
+    margin-top: 5rem;
+    width: 100%;
+}
+
+.feature-card {
+    padding: 2rem;
+    background-color: var(--entry);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    text-align: left;
+    transition: border-color 0.3s ease;
+}
+
+.feature-card:hover {
+    border-color: #94a3b8;
+}
+
+.feature-card h3 {
+    font-size: 1.5rem;
+    font-weight: 800;
+    margin-bottom: 0.75rem;
+    color: var(--primary);
+}
+
+.feature-card p {
+    font-size: 1.05rem;
+    line-height: 1.5;
+    color: var(--secondary);
+}
+
+[data-theme="dark"] .landing-title {
+    background: linear-gradient(135deg, #cbd5e1 0%, #94a3b8 100%);
+    -webkit-background-clip: text;
+}
+
+[data-theme="dark"] .landing-cta {
+    box-shadow: 0 4px 14px 0 rgba(0, 0, 0, 0.39);
+}
+
+@media (max-width: 768px) {
+    .landing-title {
+        font-size: 3rem;
+    }
+    .landing-tagline {
+        font-size: 1.25rem;
+    }
+    .landing-container {
+        padding: 40px 20px;
+    }
+}
